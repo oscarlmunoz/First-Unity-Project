@@ -3,11 +3,11 @@
     <Files>
       <File FileName="Assets/Scripts/Bullet.cs" Line="11" Column="46" />
       <File FileName="Assets/Scripts/Weapon.cs" />
-      <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/EnemyPatrol.cs" />
       <File FileName="Assets/Scripts/TestingCase.cs" />
       <File FileName="../../Downloads/EnemyPatrol.cs" />
       <File FileName="Assets/Scripts/InstantiatePrefab.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="7" Column="17" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="61" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,17 +15,22 @@
           <Node name="First Unity Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerController.cs" selected="True" />
+                <Node name="Bullet.cs" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>_target.transform</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="470bcd4e-2fd4-4305-8e45-1c16414aa408" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="17e2295c-5577-4d9d-9cf7-b352326237e6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
