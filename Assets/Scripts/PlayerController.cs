@@ -52,7 +52,8 @@ public class PlayerController : MonoBehaviour
         }
         _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        if(Input.GetButton("Jump") && _isGrounded == true)
+        float verticalInput = Input.GetAxisRaw("Vertical");
+        if ((verticalInput > 0f || Input.GetButton("Jump")) && _isGrounded == true)
         {
             _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
