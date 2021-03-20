@@ -735,6 +735,14 @@
       <Project>{08F6FD02-4734-3381-B2CF-757BD5725AF9}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{165F6008-DE36-30E4-5D9A-8CC9A52D7DDC}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{9FE83D0A-B317-AF13-F0A8-092B278C3F7D}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
