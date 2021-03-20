@@ -7,14 +7,16 @@
       <File FileName="Assets/Scripts/TestingCase.cs" />
       <File FileName="../../Downloads/EnemyPatrol.cs" />
       <File FileName="Assets/Scripts/InstantiatePrefab.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="91" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="56" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="First Unity Project" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Bullet.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -23,12 +25,10 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="67c531ea-e31d-44e2-90eb-bd3eae33b407" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="da2931f4-3edf-4218-9e69-0466819119be" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/oscarluismunozmartinez/Projects/First Unity Project/Assets/Scripts/PlayerController.cs" relfile="Assets/Scripts/PlayerController.cs" line="97" column="1" />
-      <Breakpoint file="/Users/oscarluismunozmartinez/Projects/First Unity Project/Assets/Scripts/PlayerController.cs" relfile="Assets/Scripts/PlayerController.cs" line="95" column="1" />
-      <Breakpoint file="/Users/oscarluismunozmartinez/Projects/First Unity Project/Assets/Scripts/PlayerController.cs" relfile="Assets/Scripts/PlayerController.cs" line="91" column="1" />
+      <Breakpoint file="/Users/oscarluismunozmartinez/Projects/First Unity Project/Assets/Scripts/PlayerController.cs" relfile="Assets/Scripts/PlayerController.cs" line="98" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
